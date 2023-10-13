@@ -1,8 +1,12 @@
 def operazioneStupida(a, e, m):
     return (a**e) % m
 
-def operazionePocoIntelligente():
-    return 0
+def operazionePocoIntelligente(a, e, m):
+    num = bin(e)
+    a = num.split('b')
+    numb = a[1]
+    
+    return numb
 
 def operazioneIntelligente():
     return 0
@@ -30,3 +34,4 @@ while(True):
 
     scelta = input("Type 1, 2, 3 or 4(EXIT) and press enter:")
     
+print(operazionePocoIntelligente(1, 20,1))
