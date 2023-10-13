@@ -8,9 +8,9 @@ Il progetto contiene tre funzioni esponenziali:
 
 1. **Esponenziale Stupida** - Calcola (A^E) % M, dove A è la base, E è l'esponente e M è il modulo.
 
-2. **Esponenziale Poco Inteligente** - text to change
+2. **Esponenziale Poco Inteligente** - Calcola la produttoria di A^(k×2^count) con alla fine % M.
 
-3. **Esponenziale Inteligente** - text to change
+3. **Esponenziale Inteligente** - Calcola la produttoria di A^(k×2^count)%m.
 
 ## Utilizzo
 
