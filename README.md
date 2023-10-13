@@ -18,6 +18,10 @@ To run the program, execute the Python file `keyAlgorithms.py`. The program will
 
 ```bash
 python3 keyAlgorithms.py
+```
+## Requirements
+
+The project requires Python 3 to be executed.
 
 ## Authors
 
