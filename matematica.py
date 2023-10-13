@@ -36,19 +36,19 @@ choice = input("Type 1, 2, 3 or 4(EXIT) and press enter: ")
 #switch case by choice
 while(True):
     if choice == "1":
-        a = input("Type a: ")
-        e = input("Type e: ")
-        m = input("Type m: ")
+        a = int(input("Type a: "))
+        e = int(input("Type e: "))
+        m = int(input("Type m: "))
         print(operazioneStupida(a, e, m))
     elif choice == "2":
-        a = input("Type a: ")
-        e = input("Type e: ")
-        m = input("Type m: ")
+        a = int(input("Type a: "))
+        e = int(input("Type e: "))
+        m = int(input("Type m: "))
         print(operazionePocoIntelligente(a, e, m))
     elif choice == "3":
-        a = input("Type a: ")
-        e = input("Type e: ")
-        m = input("Type m: ")
+        a = int(input("Type a: "))
+        e = int(input("Type e: "))
+        m = int(input("Type m: "))
         print(operazioneIntelligente(a, e, m))
     elif choice == "4":
         break
