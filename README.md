@@ -1,29 +1,28 @@
-# algoritmiChiavi
+# Key Algorithms
 
-Questo progetto in Python è una semplice implementazione di tre diverse funzioni esponenziali. L'utente può selezionare quale funzione eseguire specificando una variabile di scelta e fornendo i parametri necessari (A, E, M).
+This Python project is a simple implementation of three different exponential functions. Users can select which function to run by specifying a choice variable and providing the necessary parameters (A, E, M).
 
-## Funzioni Esponenziali
+## Exponential Functions
 
-Il progetto contiene tre funzioni esponenziali:
+The project contains three exponential functions:
 
-1. **Esponenziale Stupida** - Calcola (A^E) % M, dove A è la base, E è l'esponente e M è il modulo.
+1. **Naive Exponential** - Computes (A^E) % M, where A is the base, E is the exponent, and M is the modulus.
 
-2. **Esponenziale Poco Inteligente** - Calcola la produttoria di A^(k×2^count) con alla fine % M.
+2. **Less Intelligent Exponential** - Computes the product of A^(k×2^count) with % M at the end.
 
-3. **Esponenziale Inteligente** - Calcola la produttoria di A^(k×2^count)%m.
+3. **Intelligent Exponential** - Computes the product of (A^(k×2^count))% M with % M at the end.
 
-## Utilizzo
+## Usage
 
-Per eseguire il programma, esegui il file Python `algoritmiChiavi.py`. Il programma ti chiederà di selezionare una delle tre funzioni esponenziali e di fornire i valori dei parametri necessari.
+To run the program, execute the Python file `keyAlgorithms.py`. The program will prompt you to select one of the three exponential functions and provide the required parameter values.
 
 ```bash
-python3 algoritmiChiavi.py
+python3 keyAlgorithms.py
 ```
+## Requirements
 
-## Requisiti
+The project requires Python 3 to be executed.
 
-Il progetto richiede Python 3 per essere eseguito.
+## Authors
 
-## Autori
-
-Questo progetto è stato creato da Giorgio Tentorio, Gabriele Meles.
+This project has been developed by Giorgio Tentorio and Gabriele Meles.
